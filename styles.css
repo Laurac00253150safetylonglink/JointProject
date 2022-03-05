@@ -1,0 +1,79 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(45, 85, 83);
+    font-family: sans-serif;
+    overflow: scroll;
+}
+
+.form-container {
+    position: absolute;
+    width: 1000px;
+    height: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(25, 38, 41);
+    box-shadow: 1px 1px 1px;
+}
+
+.form-header {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.form-table {
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.form-table input {
+    padding: 6px;
+    background: transparent;
+    border: 1px solid #00f5ff;
+    color: white;
+    width: 450px;
+}
+
+.form-table input[type="submit"] {
+    width: 35%;
+    background: white;
+    color: black;
+    
+}
+
+.gdpr-complience {
+    color: #00ffff;
+    padding-left: 10%;
+    font-size: 22px;
+    border-bottom: solid 1px;
+}
+
+.gdpr-complience-notice {
+    color: #ffffff;
+    padding-left: 10%;
+    font-size: 18px;
+
+}
+
+.data-collection {
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size: 15px;
+}
+
+
+
+
+
+
