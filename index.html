@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Title of the document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg">
+    <div class="form-container">
+        <p class="form-header">Sign up</p>
+        <form action="connect.php" method="POST" enctype="multipart/form-data">
+            <table class="form-table">
+
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="username" required/></td>
+            </tr>
+                
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" required/></td>
+            </tr>
+                
+            <tr>
+                <td>StudentID</td>
+                <td><input type="text" name="studentid" maxlength="10" required/></td>
+            </tr>
+                
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" required/></td>
+            </tr>
+                
+            <tr>
+                <td>Date of birth</td>
+                <td><input type="date" name="dateofbirth" required/></td>
+            </tr>
+                
+            <tr>
+                <td>Phone number</td>
+                <td><input type="number" name="phonenumber" required/></td>
+            </tr>
+                
+            <tr>
+                <td>Medical conditions</td>
+                <td><input type="text" name="medicalconditions" required/></td>
+            </tr>
+                
+            <tr>
+                <td>Doctor information (Name / Phone no. / Address)</td>
+                <td><input type="text" name="doctorinformation" required/></td>
+            </tr>
+                
+            <tr>
+                <td>Next of kin contact (name / Phone no.)</td>
+                <td><input type="text" name="kininfo" required/></td>
+            </tr>
+                       
+                <tr>
+                    <td colspan="2">
+                    <br>
+                        <input type="submit" name="submit" value="Submit">
+                    </td>
+                </tr>
+            
+            </table>
+            <br>
+        </form>
+            <div>
+                <p class="gdpr-complience">GDPR-compliant privacy notice</p>
+                <p class="gdpr-complience-notice">1 - What data do we collect?</p>
+                <p class="data-collection">Data such as StudentID, Email address, Date of birth, Phone number, Medical conditions, Medical conditions, Doctors information, Next of kin contact information.</p>
+                <p class="gdpr-complience-notice">2 - How do we collect your data?</p>
+                <p class="data-collection">We collect data when you register online or join a club/society.</p>
+                <p class="gdpr-complience-notice">3 - How will we use your data?</p>
+                <p class="data-collection">Process your data to manage your account</p>
+                <p class="data-collection">Email you with specific updates after you have joined a club / society</p>
+                <p class="gdpr-complience-notice">4 - How will we store your data?</p>
+                <p class="data-collection">We securely store data on our servers which are also securely encrypted with the proper methods.</p>
+                <p class="gdpr-complience-notice">5 - What are your data protection rights?</p>
+                <p class="data-collection">The right to access</p>
+                <p class="data-collection">The right to rectification </p>
+                <p class="data-collection">The right to object to processing </p>
+                <p class="data-collection">The right to data portability </p>
+            </div>
+    </div>
+</div>
+</body>
+</html>
