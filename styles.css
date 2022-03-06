@@ -10,11 +10,14 @@ body {
     height: 100%;
     background: rgb(45, 85, 83);
     font-family: sans-serif;
-    overflow: scroll;
+    resize:both;
+    overflow: auto;
 }
 
 .form-container {
     position: absolute;
+    resize: both;
+    overflow: auto;
     width: 1000px;
     height: 95%;
     top: 50%;
@@ -71,6 +74,12 @@ body {
     padding-right: 5%;
     font-size: 15px;
 }
+
+.GDPR {
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
 
 
 
